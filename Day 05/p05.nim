@@ -71,7 +71,7 @@ func cmp(x, y: Range): int =
     result = cmp(x.b, y.b)
 
 func values(map: Map; ranges: Ranges): Ranges =
-  ## Return the ranges associated to input "ranges" using givent map and part 2 rules.
+  ## Return the ranges associated to input "ranges" using given map and part 2 rules.
   for src in ranges:
     var first = src.a
     let last = src.b
